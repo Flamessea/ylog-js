@@ -1,5 +1,3 @@
-import {parseTime} from './lib/date';
-
 declare namespace ylogJs {
     /**
      * array summation
