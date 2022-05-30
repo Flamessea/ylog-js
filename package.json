@@ -1,0 +1,35 @@
+{
+  "name": "ylog-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/ylog-js.cjs.js",
+  "module": "dist/ylog-js.esm.js",
+  "browser": "dist/ylog-js.umd.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "keywords": [
+    "ylog-js"
+  ],
+  "author": "seayman@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.36",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "rollup": "^2.75.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslib": "^2.4.0"
+  }
+}
