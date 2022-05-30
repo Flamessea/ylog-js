@@ -1,7 +1,7 @@
 {
   "name": "ylog-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy-to-use js tool library",
   "main": "dist/ylog-js.cjs.js",
   "module": "dist/ylog-js.esm.js",
   "browser": "dist/ylog-js.umd.js",
