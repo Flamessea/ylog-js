@@ -1,6 +1,6 @@
 {
   "name": "ylog-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy-to-use js tool library",
   "main": "dist/ylog-js.cjs.js",
   "module": "dist/ylog-js.esm.js",
@@ -17,6 +17,10 @@
   "keywords": [
     "ylog-js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flamessea/ylog-js.git"
+  },
   "author": "seayman@163.com",
   "license": "MIT",
   "devDependencies": {
